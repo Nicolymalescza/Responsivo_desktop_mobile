@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+
+#todo{
+    width: 55%;
+    display: flex;
+    margin-left: 23%;
+    margin-top: 7%;
+    box-shadow: 4px 4px 4px 4px #DCDCDC;
+}
+
+img{/*cima,nn sei ,nn sei, esquerda */
+    margin-top:14%;
+    margin-left:15%;
+}
+
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+}
+p{
+    font-family: "Lexend Deca", sans-serif;
+    margin-right: 15%;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+#luxuryParagrafo{
+    margin-bottom: 15%;
+}
+
+button{
+    border:none;
+    border-radius: 25px;
+    padding: 5% 9% 5% 9%;
+   
+    margin-top:20%;
+    margin-left:15%;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: bold; 
+}
+
+#bt_um{
+    color:hsl(31, 77%, 52%);
+}
+#bt_dois{
+    color: hsl(184, 100%, 22%);
+}
+#bt_tres{
+    color:hsl(179, 100%, 13%);  
+}
+
+.texto{
+    color:#DCDCDC;
+    margin-left: 15%;
+}
+
+#primeiro{
+    border-radius: 7px 0px 0px 7px;
+    width: 55%;
+    height: 470px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#segundo{
+    width: 55%;
+    height: 470px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+#terceiro{
+    border-radius: 0px 7px 7px 0px;
+    width: 55%;
+    height: 470px;
+    background-color:hsl(179, 100%, 13%);
+
+}
+
+
+@media screen and (max-width:850px){
+    #todo{
+        margin-left:5%;
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+
+    button{
+        margin-top: 10%;
+    }
+
+    #primeiro{
+        width: 90%;
+        height: 470px;
+        border-radius: 7px 7px 0px 0px;
+        background-color: hsl(31, 77%, 52%);
+    }
+    #segundo{
+        width: 90%;
+        height: 470px;
+        background-color: hsl(184, 100%, 22%);
+    }
+    #terceiro{
+        width: 90%;
+        height: 510px;
+        border-radius: 0px 0px 7px 7px;
+        background-color:hsl(179, 100%, 13%);   
+    }
+}
